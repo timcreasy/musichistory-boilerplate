@@ -79,6 +79,11 @@ select[name="albums"] {
   width: 100%;
 }
 
+#filterbutton {
+  width: 40%;
+  margin: 10px auto;
+}
+
 
 /* ================================== DISPLAY CHECKBOX GRID =================================================== */
 
