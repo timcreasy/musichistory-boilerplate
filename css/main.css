@@ -16,8 +16,8 @@ header ul {
 header li {
   display: inline-block;
   list-style: none;
-  border-right: 2px solid black;
-  padding-right: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 header li:last-child {
@@ -26,10 +26,18 @@ header li:last-child {
 
 header a {
   text-decoration: none;
+  border-right: 2px solid black;
+  padding-right: 6px;
+  font-weight: bolder;
+}
+
+header a:nth-child(2),
+header a:nth-child(3) {
+  padding-left: 6px;
 }
 
 header a:hover {
-  color: orange;
+  color: black;
 }
 
 article {
@@ -39,7 +47,7 @@ article {
 
 aside {
   width: 18%;
-  height: 400px;
+  height: 365px;
   background-color: #4DD7FA;
   float: left;
   margin-right: 2%;
@@ -47,7 +55,7 @@ aside {
 
 section {
   width: 80%;
-  height: 400px;
+  height: 365px;
   background-color: #FEFAC0;
   float: left;
 }
@@ -65,16 +73,93 @@ section {
   display: block;
 }
 
-.songLength {
+.songLength,
+select[name="artists"],
+select[name="albums"] {
   width: 100%;
 }
+
+
+/* ================================== DISPLAY CHECKBOX GRID =================================================== */
 
 input[type="checkbox"] {
   display: inline;
   margin: 3px;
 }
 
-#rock {
+label[for="rock"],
+label[for="pop"],
+label[for="classical"],
+label[for="jazz"],
+label[for="hip_hop"],
+label[for="blues"] {
+  display: block;
+  padding-bottom: 5px;
+}
+
+#leftcheckset {
+  width: 50%;
   float: left;
+}
+
+
+#rightcheckset {
+  width: 50%;
+  float: right;
+}
+
+
+/* ==================================== SIDEBAR ELEMENT SPACING ============================================= */
+
+label[for="songLength"] {
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+
+label[for="artists"] {
+  padding-top: 15px;
+}
+
+label[for="albums"] {
+  padding-top: 15px;
+}
+
+label[for="genre"] {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+
+/* ==================================== SECTION ELEMENT ============================================= */
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+section h1 {
+  color: #785616;
+  font-size: 1.3em;
+}
+
+.songlist {
+  padding-left: 0;
+}
+
+.songlist li {
+  display: inline-block;
+  list-style: none;
+  border-right: 2px solid black;
+  padding-right: 17px;
+}
+
+.songlist li:last-child {
+  border: none;
+}
+
+.songlist li:nth-child(2),
+.songlist li:nth-child(3) {
+  padding-left: 17px;
 }
 
