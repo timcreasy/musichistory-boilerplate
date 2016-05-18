@@ -4,10 +4,64 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body>  
+  <!-- Header Element -->
+  <header>
+    <ul>
+      <li><a href="#">View Music</a></li>
+      <li><a href="#">Add Music</a></li>
+      <li><a href="#">Profile</a></li>
+    </ul>
+  </header>
 
+  <!-- Article Element -->
+  <article>
+
+    <!-- Sidebar Element -->
+    <aside>
+      <div id="sidebarContainer">
+        <label for="songLength">Song Length:</label>
+        <input id="songLength" class="songLength" type="range" min="0" max="100" value="50" step="1">
+
+        <label for="artists">Artists:</label>
+        <select name="artists">
+          <option value="" selected disabled>Option:</option>
+          <option value="commercial">Pink Floyd</option>
+          <option value="real_estate">The Talking Heads</option>
+          <option value="personal">Fleetwood Mac</option>
+          <option value="mortgage">Cake</option>
+        </select>
+
+        <label for="albums">Albums:</label>
+        <select name="albums">
+          <option value="" selected disabled>Option:</option>
+          <option value="commercial">The Wall</option>
+          <option value="real_estate">Stop Making Sense</option>
+          <option value="personal">Rumors</option>
+          <option value="mortgage">Blah Blah</option>
+        </select>
+
+
+        <label for="genre">Genre:</label>
+        <input type="checkbox" id="rock" name="genre" value="rock"><label for="rock">Rock</label>
+        <input type="checkbox" id="pop" name="genre" value="pop"><label for="pop">Pop</label>
+        <input type="checkbox" id="blues" name="genre" value="blues"><label for="blues">Blues</label>
+        <input type="checkbox" id="classical" name="genre" value="classical"><label for="classical">Classical</label>
+        <input type="checkbox" id="jazz" name="genre" value="jazz"><label for="jazz">Jazz</label>
+        <input type="checkbox" id="hip_hop" name="genre" value="hip_hop"><label for="hip_hop">Hip-Hop</label>
+
+
+      </div>
+    </aside>
+
+    <!-- Section Element -->
+    <section>
+    </section>
+
+  </article>
 
 </body>
 </html>

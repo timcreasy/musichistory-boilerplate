@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+}
+
+header {
+  width: 85%;
+  background-color: #FFB4B0;
+  margin: 0 auto;
+}
+
+header ul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+header li {
+  display: inline-block;
+  list-style: none;
+  border-right: 2px solid black;
+  padding-right: 6px;
+}
+
+header li:last-child {
+  border: none;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  color: orange;
+}
+
+article {
+  width: 85%;
+  margin: 0 auto;
+}
+
+aside {
+  width: 18%;
+  height: 400px;
+  background-color: #4DD7FA;
+  float: left;
+  margin-right: 2%;
+}
+
+section {
+  width: 80%;
+  height: 400px;
+  background-color: #FEFAC0;
+  float: left;
+}
+
+#sidebarContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+#sidebarContainer > label[for="songLength"],
+#sidebarContainer > label[for="artists"],
+#sidebarContainer > label[for="albums"], 
+#sidebarContainer > label[for="genre"] {
+  display: block;
+}
+
+.songLength {
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  margin: 3px;
+}
+
+#rock {
+  float: left;
+}
+
