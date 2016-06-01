@@ -14,7 +14,7 @@ songs.unshift("Girlfriend Is Better - by Talking Heads on the album Stop Making 
 songs.push("Time - by Pink Floyd on the album The Dark Side of The Moon");
 
 // Get DOM element to add songs to
-var display = document.getElementById("songs");
+var display = document.getElementById("songOutput");
 
 // Loop over array, removing any charachters that don't belong
 for (var i = 0; i < songs.length; i++) {
