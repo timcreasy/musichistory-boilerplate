@@ -11,19 +11,23 @@
   <!-- Header Element -->
   <header>
     <ul>
-      <li><a href="#">View Music</a></li>
-      <li><a href="#">Add Music</a></li>
+      <li><a id="listMusicButton" href="#">List Music</a></li>
+      <li><a id="addMusicButton" href="#">Add Music</a></li>
       <li><a href="#">Profile</a></li>
     </ul>
   </header>
 
-  <!-- songs display area -->
-  <div id="songs">
+  <!-- input area -->
+  <div id="addMusicView" class="hidden">
+    <input type="text" id="songInput" placeholder="Enter song name">
+    <input type="text" id="artistInput" placeholder="Enter artist name">
+    <input type="text" id="albumName" placeholder="Enter album name">
+    <button id="addButton">Add</button>
   </div>
 
 
   <!-- Article Element -->
-  <article>
+  <article id="listMusicView">
     <!-- Sidebar Element -->
     <aside>
       <div id="sidebarContainer">
@@ -68,36 +72,8 @@
       </div>
     </aside>
 
-    <!-- Section Element -->
+    
     <section id="songOutput">
-
-      <!-- <h1>Song Name</h1>
-      <ul class="songlist">
-        <li>Artist Name</li>
-        <li>Album Name</li>
-        <li>Genre</li>
-      </ul>
-
-      <h1>Song Name</h1>
-      <ul class="songlist">
-        <li>Artist Name</li>
-        <li>Album Name</li>
-        <li>Genre</li>
-      </ul>
-
-      <h1>Song Name</h1>
-      <ul class="songlist">
-        <li>Artist Name</li>
-        <li>Album Name</li>
-        <li>Genre</li>
-      </ul>
-
-      <h1>Song Name</h1>
-      <ul class="songlist">
-        <li>Artist Name</li>
-        <li>Album Name</li>
-        <li>Genre</li>
-      </ul> -->
 
     </section>
 
