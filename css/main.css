@@ -13,7 +13,7 @@ body {
 
 #songInput,
 #artistInput,
-#albumName,
+#albumInput,
 #addButton {
   display: block;
   margin: 8px auto;
