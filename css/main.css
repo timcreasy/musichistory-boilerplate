@@ -188,3 +188,7 @@ section h1 {
 #songs {
   padding-left: 10%;
 }
+
+.songInformation {
+  display: inline-block;
+}

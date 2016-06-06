@@ -1,0 +1,15 @@
+{
+  "songs": [{
+    "title": "Girlfriend is Better",
+    "artist": "Talking Heads",
+    "album": "Stop Making Sense"
+  }, {
+    "title": "Time",
+    "artist": "Pink Floyd",
+    "album": "The Dark Side of the Moon"
+  }, {
+    "title": "Welcome to the Jungle",
+    "artist": "Guns & Roses",
+    "album": "Appetite for Destruction"
+  }]
+}
