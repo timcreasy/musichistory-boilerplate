@@ -2,6 +2,23 @@ body {
   width: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
+#inputArea {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#songInput,
+#artistInput,
+#albumInput,
+#addButton {
+  display: block;
+  margin: 8px auto;
+}
+
 header {
   width: 85%;
   background-color: #FFB4B0;
@@ -168,3 +185,10 @@ section h1 {
   padding-left: 17px;
 }
 
+#songs {
+  padding-left: 10%;
+}
+
+.songInformation {
+  display: inline-block;
+}
